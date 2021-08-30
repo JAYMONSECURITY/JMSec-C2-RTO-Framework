@@ -11,17 +11,25 @@ Se trata de un software diseñado específicamente para la creación de Ciberint
 Programado por la sección “Red Team” de JAYMON SECURITY, consta de un instalador que ejecuta un binario tipo sensor en la máquina víctima para infectarla, y de un panel de control  Web multiplataforma que constituye el servidor de Mando y Control (C2), desde donde se envían órdenes a ejecutar en las máquinas infectadas. 
 
 En resumen, consta de: 
+
 •	El Instalador: Encargado de instalar en las máquinas remotas a administrar (las víctimas) el sensor que conectará con el servidor C2.
+
 •	Panel de Mando y Control (C2) Web: Se trata de una plataforma web de interfaz intuitiva programada en PHP e instalada en un servidor HTTP/S  mediante el cual el Red Team Operator puede controlar las máquinas infectadas.
 
 CARACTERÍSTICAS
 
-•	Presenta una función específica que lo dota de una característica de “carácter múltiple”, es decir, bajo su servidor de mando y control C2 puede llegar a controlar miles de máquinas administradas, ya que por cada una de ellas se crea un número de identificación propio e intransferible. 
+•	Presenta una función específica que lo dota de una característica de “carácter múltiple”, es decir, bajo su servidor de mando y control C2 puede llegar a controlar miles de máquinas administradas, ya que por cada una de ellas se crea un número de identificación propio. 
+
 •	Tras su ejecución, procede a realizar sus funciones en segundo plano, sin que el usuario se percate de su presencia.
+
 •	Consta de funciones específicas para la evasión de sistemas AntiVirus, IDS, IPS. Sus funciones están cifradas con un algoritmo propio, tras su ejecución se descodifica en memoria para evitar posibles detecciones.
+
 •	Se auto elimina tras la primera ejecución en la máquina administrada y procede a asegurar su permanencia mediante su auto ejecución tras cualquier reinicio del sistema.
+
 •	Tras su ejecución procede a asignar un número de identificación único e intransferible a la nueva máquina a administrar, y a crear un archivo de texto denominado “oscreds***” con contenido confidencial de la máquina administrada. Posteriormente exfiltra la información al servidor de mando y control DRAKOF C2.
+
 •	Posteriormente realiza una comprobación vía HTTP de la existencia de nuevas instrucciones a ejecutar en la máquina administrada. En caso de no existir instrucciones a ejecutar quedará a la espera de nuevas órdenes, realizando dicha comprobación permanentemente.
+
 •	Las distintas funciones de las que consta se explican en la descripción del Panel de Control.
 
 
