@@ -51,4 +51,3 @@ OBJETIVOS
 •	Mantener un estrecho control de los sistemas informáticos de la empresa u organización.
 •	Tener la capacidad de poder realizar inteligencia y ejecución de operaciones con garantías de éxito.
  
-
