@@ -63,7 +63,7 @@ Las distintas órdenes que podemos lanzar a las máquinas infectadas son:
 
 •	Función de envío de información específica de procesos, usuarios y directorios de la máquina infectada al servidor C2.
 
-• Función de ejecución de Stager Meterpreter para recibir una sesión Meterpreter de Metasploit en otro C2 remoto, fuera de listas negras del Blue Team de la Organización a auditar.
+• Capacidad de implementación con otros sistemas de Mando y Control, como Empire, Cobalt Strike, Silent Trinity, etc. De gran utilidad para crear nuevas conexiones a servidores C2 fuera de listas negras del Blue Team de la Organización a auditar.
 
 •	Ver listado de capturas, archivos y carpetas tanto del directorio de la máquina infectada en el servidor C2, como del servidor C2 completo con todas las máquinas infectadas.
 
