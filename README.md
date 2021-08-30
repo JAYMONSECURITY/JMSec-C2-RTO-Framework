@@ -1,5 +1,5 @@
-# JMSec-Software RTO
-Command and Control Panel JMSec Implant - JMSec Red Team Operations.
+# JMSec-Agent RTO
+Command and Control Panel JMSec Agent - JAYMON SECURITY Red Team Operations.
 https://jaymonsecurity.com/software-de-administracion-remota/
 
 ![DASHBOARD](https://user-images.githubusercontent.com/76411871/131404701-ff174a84-90a0-4523-8afe-f64623ec1bb8.png)
@@ -68,12 +68,15 @@ Las distintas órdenes que podemos lanzar a las máquinas víctima (infectadas) 
 •	Ver los “logs” de la actividad de conexión de cada una de las máquinas administradas. Útil para conocer las horas de actividad de cada máquina administrada.
 
 •	Función de auto eliminación del Software malicioso de la/s máquina/s administrada/s. 
+
  
 OBJETIVOS
 
-•	Adquirir la información necesaria de los equipos informáticos infectados para la creación de Ciberinteligencia personal y empresarial.
+• No ser detectados durante la misión.
 
-•	Mantener un estrecho control de los sistemas informáticos de la empresa u organización.
+•	Exfiltrar la información necesaria de los equipos informáticos infectados para la creación de inteligencia personal y empresarial.
 
-•	Tener la capacidad de poder realizar inteligencia y ejecución de operaciones con garantías de éxito.
+•	Realizar inteligencia y ejecución de operaciones con garantías de éxito.
+
+•	Finalizar la misión sin ser detectados con todas las TTPs posibles ejecutadas en memoria y mediante inyecciones en procesos legítimos del sistema infectado.
  
