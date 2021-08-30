@@ -1,4 +1,5 @@
 # JMSec-Agent RTO
+Author: Juan M. https://www.linkedin.com/in/jaymonsecuritydirector/
 Command and Control Panel JMSec Agent - JAYMON SECURITY Red Team Operations.
 https://jaymonsecurity.com/software-de-administracion-remota/
 
