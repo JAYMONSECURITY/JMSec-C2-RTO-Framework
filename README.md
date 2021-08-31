@@ -72,6 +72,42 @@ Las distintas órdenes que podemos lanzar a las máquinas infectadas son:
 •	Función de auto eliminación del Software malicioso de la/s máquina/s infectada/s. 
 
 
+FUNCIONES DERIVADAS DE IMPLEMENTACIÓN CON OTROS SISTEMAS C2
+
+• Phishing: Abre una ventana de bloqueo al usuario infectado para engañarlo y que introduzca distintas credenciales de acceso a distintos servicios de la Organización. 
+
+• Escalada de privilegios: La realiza mediante distintos métodos. 
+
+• Acceder a los dispositivos que se encuentran disponibles en la máquina infectada y mapear dispositivos (USBs, impresoras, etc.). 
+
+• Ver la WebCam de la máquina víctima por foto y vídeo.
+
+• Habilitar escritorio remoto: Habilita o deshabilita el escritorio remoto para poder conectarnos de manera gráfica. 
+
+• Volcado de memoria RAM: Para poder realizar análisis forense y obtener credenciales introducidas anteriormente en la máquina infectada. 
+
+• Inhabilitar las máquinas infectadas.
+
+
+ALGUNOS SUPUESTOS A REALIZAR TRAS INFECTAR UNA MÁQUINA Y OBTENER SU INFORMACIÓN
+
+• Suplantación de identidad en correos electrónicos y redes sociales.
+
+• Acceso a cuentas personales (email, redes sociales, bancarias, etc) y recursos compartidos del sistema. 
+
+• Infectar a familiares y personas de confianza de la víctima empleando la confianza que nos otorga la suplantación de su identidad. 
+
+• Esparcir malware mediante los recursos compartidos del sistema de la víctima. 
+
+• Acceso y exfiltración de documentos, fotos, vídeos, archivos personales con información sensible. 
+
+• Introducir archivos en la máquina víctima que involucre a la víctima en eventos específicos. 
+
+• Posibilidad de acceder y desconfigurar cámaras de vigilancia, servidores web, de correos, y otros servicios. 
+
+• Posibilidad de inhabilitar sistemas informáticos. 
+
+
 OBJETIVOS
 
 • No ser detectados durante la misión.
