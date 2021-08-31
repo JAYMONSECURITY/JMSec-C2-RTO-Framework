@@ -1,0 +1,22 @@
+FIRMAR APLICACION EXE CON SIGNTOOL
+------------------------------------
+PRIMERO PODEMOS EMPACARLA CON UPX -->   upx.exe -9 -qfk -o JMSEC_01_UPX.exe JMSEC_01.exe
+
+UNA VEZ COMPRIMIDO PASAMOS A FIRMARLO.
+
+VAMOS A --> C:\Program Files (x86)\Windows Kits\10\bin\10.0.15063.0\x64
+
+----------------------------------------------------------------------------------------------
+
+Debemos tener instalado Windows 10 SDK. 
+
+----------------------------------------------------------------------------------------------
+
+UNA VEZ TENGAMOS SIGNTOOL INSTALADA VAMOS A LA CARPETA ESPECIFICADA ARRIBA Y PROCEDEMOS A LANZAR LOS SIGUIENTES COMANDOS:
+
+1. makecert.exe -r -pe -$ individual -n CN=SYSTEM -sv system.pvk system.cer      --> CREAMOS CERTIFICADO LLAMADO SYSTEM
+
+2. pvk2pfx.exe -pvk system.pvk -spc system.cer -pfx system.pfx                   --> TRASFORMAMOS .CER A .PFX
+
+3. signtool.exe sign /f system.pfx JMSEC_01_UPX.exe                              --> FIRMAMOS NUESTRO BICHO
+
