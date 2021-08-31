@@ -18,5 +18,5 @@ UNA VEZ TENGAMOS SIGNTOOL INSTALADA VAMOS A LA CARPETA ESPECIFICADA ARRIBA Y PRO
 
 2. pvk2pfx.exe -pvk system.pvk -spc system.cer -pfx system.pfx                   --> TRASFORMAMOS .CER A .PFX
 
-3. signtool.exe sign /f system.pfx JMSEC_01_UPX.exe                              --> FIRMAMOS NUESTRO BICHO
+3. signtool.exe sign /f system.pfx JMSEC_01_UPX.exe                              --> FIRMAMOS NUESTRO SENSOR COMPRIMIDO CON UPX
 
