@@ -1,7 +1,7 @@
-# JMSec-Agent RTO
+# JMSec-C2 RTO Framework
 Author: Juan M. https://www.linkedin.com/in/jaymonsecuritydirector/
 
-Command and Control Panel JMSec Agent - JAYMON SECURITY Red Team Operations.
+Command and Control Panel JMSec C2 - JAYMON SECURITY Red Team Operations.
 
 https://jaymonsecurity.com/software-de-administracion-remota/
 
@@ -10,7 +10,7 @@ https://jaymonsecurity.com/software-de-administracion-remota/
 
 DESCRIPCIÓN
 
-Se trata de un software diseñado específicamente para llevar a cabo Operaciones Red Team en equipos informáticos con Sistema Operativo Windows (XP/Vista/7/8/8.1/10) de arquitecturas X64/X86.
+Se trata de una solución completa compuesta por un framework diseñado específicamente para llevar a cabo Operaciones Red Team en equipos informáticos con Sistema Operativo Windows (XP/Vista/7/8/8.1/10) de arquitecturas X64/X86.
 
 Programado por la sección “Red Team” de JAYMON SECURITY, consta de un instalador que ejecuta un binario tipo sensor en la máquina víctima para infectarla, y de un panel de control  Web multiplataforma que constituye el servidor de Mando y Control (C2), desde donde se envían órdenes a ejecutar en las máquinas infectadas. 
 
