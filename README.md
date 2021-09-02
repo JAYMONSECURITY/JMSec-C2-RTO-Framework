@@ -20,7 +20,7 @@ En resumen, consta de:
 
 •	Servidor de Mando y Control (C2) Web: Se trata de una aplicación Web de interfaz intuitiva mediante la cual el Red Team Operator puede controlar las máquinas infectadas.
 
-CARACTERÍSTICAS
+## CARACTERÍSTICAS
 
 •	Escrito en C/C++, tiene la capacidad de crear una BOTNET, ya que bajo su servidor de mando y control C2 puede llegar a controlar miles de máquinas infectadas, asignándole a cada una de ellas un número de identificación propio. 
 
@@ -35,7 +35,7 @@ CARACTERÍSTICAS
 •	Las distintas funciones de las que consta se explican en la descripción del Panel de Control.
 
 
-PANEL DE CONTROL (C2)
+## PANEL DE CONTROL (C2)
 
 Desde el panel de control se lanzan instrucciones a las máquinas infectadas. Dichas instrucciones las podremos lanzar bien de máquina en máquina, según número de identificación propio, o bien a todas las máquinas infectadas que conforman la BOTNET.
 
@@ -72,7 +72,7 @@ Las distintas órdenes que podemos lanzar a las máquinas infectadas son:
 •	Función de auto eliminación del Software malicioso de la/s máquina/s infectada/s. 
 
 
-FUNCIONES DERIVADAS DE IMPLEMENTACIÓN CON OTROS SISTEMAS C2
+## FUNCIONES DERIVADAS DE IMPLEMENTACIÓN CON OTROS SISTEMAS C2
 
 • Phishing: Abre una ventana de bloqueo al usuario infectado para engañarlo y que introduzca distintas credenciales de acceso a distintos servicios de la Organización. 
 
@@ -89,7 +89,7 @@ FUNCIONES DERIVADAS DE IMPLEMENTACIÓN CON OTROS SISTEMAS C2
 • Inhabilitar las máquinas infectadas.
 
 
-ALGUNOS SUPUESTOS A REALIZAR TRAS INFECTAR UNA MÁQUINA Y OBTENER SU INFORMACIÓN
+## ALGUNOS SUPUESTOS A REALIZAR TRAS INFECTAR UNA MÁQUINA Y OBTENER SU INFORMACIÓN
 
 • Suplantación de identidad en correos electrónicos y redes sociales.
 
@@ -108,7 +108,7 @@ ALGUNOS SUPUESTOS A REALIZAR TRAS INFECTAR UNA MÁQUINA Y OBTENER SU INFORMACIÓ
 • Posibilidad de inhabilitar sistemas informáticos. 
 
 
-OBJETIVOS
+## OBJETIVOS
 
 • No ser detectados durante la misión.
 
