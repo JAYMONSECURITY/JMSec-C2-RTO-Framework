@@ -8,7 +8,7 @@ https://jaymonsecurity.com/software-de-administracion-remota/
 ![DASHBOARD](https://user-images.githubusercontent.com/76411871/131404701-ff174a84-90a0-4523-8afe-f64623ec1bb8.png)
 
 
-DESCRIPCIÓN
+## DESCRIPCIÓN
 
 Se trata de una solución completa compuesta por un framework diseñado específicamente para llevar a cabo Operaciones Red Team en equipos informáticos con Sistema Operativo Windows (XP/Vista/7/8/8.1/10) de arquitecturas X64/X86.
 
