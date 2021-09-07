@@ -117,4 +117,6 @@ Las distintas órdenes que podemos lanzar a las máquinas infectadas son:
 •	Realizar inteligencia y ejecución de operaciones con garantías de éxito.
 
 •	Finalizar la misión sin ser detectados con todas las TTPs posibles ejecutadas en memoria, y mediante inyecciones en procesos legítimos del sistema infectado.
+
+•	Realizar los informes de la operación y propuesta de mejoras/mitigaciones para el cliente.
  
