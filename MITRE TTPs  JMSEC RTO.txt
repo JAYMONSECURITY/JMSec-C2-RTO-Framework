@@ -1,4 +1,4 @@
-Tácticas, Técnicas y Procedimientos MITRE llevados a cabo una JMSec RTO.
+TÃ¡cticas, TÃ©cnicas y Procedimientos MITRE llevados a cabo en formato CKC7, en un RTO de JMSec.
 
 1. RECONOCIMIENTO:
 
