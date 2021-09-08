@@ -18,7 +18,7 @@ En resumen, consta de:
 
 •	El Instalador: Encargado de instalar en las máquinas infectadas un "agente" que conecta con un servidor de Mando y Control C2.
 
-•	Servidor de Mando y Control (C2) Web: Se trata de una aplicación Web de interfaz intuitiva mediante la cual el Red Team Operator puede controlar las máquinas infectadas.
+•	Servidor de Mando y Control (C2) Web: Se trata de una aplicación Web de interfaz intuitiva mediante la cual el Red Team Operator puede controlar las máquinas infectadas, y el cliente puede observar el avance del ejercicio.
 
 ## CARACTERÍSTICAS
 
