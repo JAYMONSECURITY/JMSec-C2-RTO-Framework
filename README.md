@@ -119,4 +119,11 @@ Las distintas órdenes que podemos lanzar a las máquinas infectadas son:
 •	Finalizar la misión sin ser detectados con todas las TTPs posibles ejecutadas en memoria, y mediante inyecciones en procesos legítimos del sistema infectado.
 
 •	Realizar los informes de la operación y propuesta de mejoras/mitigaciones para el cliente.
+
+## Tácticas, Técnicas y Procedimientos (TTP) MITRE - Enterprise ATT&CK v9 - Windows platform
+
+![TTPs](https://user-images.githubusercontent.com/76411871/132777283-71a3d4ef-4686-4bab-8a87-24635b7bee1f.png)
+
+
+
  
